@@ -6,7 +6,7 @@ namespace GPTDemoTest
     internal class Program
     {
         private static readonly HttpClient _client = new HttpClient();
-        public static string apiKey = "ApiKeyHere";
+        public static string apiKey = "ApiKeyHeree";
         public static string endpointURL = "https://api.openai.com/v1/completions";
         public static string modelType = "gpt-3.5-turbo-instruct";
         public static int maxTokens = 256;
